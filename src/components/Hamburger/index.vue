@@ -14,17 +14,17 @@
 
 <script>
 export default {
-  name: 'hamburger',
-  props: {
-    isActive: {
-      type: Boolean,
-      default: false
-    },
-    toggleClick: {
-      type: Function,
-      default: null
+    name: 'hamburger',
+    props: {
+        isActive: {
+            type: Boolean,
+            default: false
+        },
+        toggleClick: {
+            type: Function,
+            default: null
+        }
     }
-  }
 }
 </script>
 
@@ -35,7 +35,7 @@ export default {
     width: 20px;
     height: 20px;
     transform: rotate(0deg);
-    transition: .38s;
+    transition: 0.38s;
     transform-origin: 50% 50%;
 }
 

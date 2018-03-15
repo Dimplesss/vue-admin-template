@@ -33,15 +33,15 @@
 
 <script>
 export default {
-  name: 'SidebarItem',
-  props: {
-    routes: {
-      type: Array
-    },
-    isNest: {
-      type: Boolean,
-      default: false
+    name: 'SidebarItem',
+    props: {
+        routes: {
+            type: Array
+        },
+        isNest: {
+            type: Boolean,
+            default: false
+        }
     }
-  }
 }
 </script>
