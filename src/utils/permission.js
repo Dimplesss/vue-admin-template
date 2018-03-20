@@ -1,0 +1,3 @@
+const hasPermission = (userRoles, routeRoles) => {
+    
+}
