@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 import { login, getInfo } from '@/api/login'
 import { getToken, setToken, removeToken } from '@/utils/auth'
+=======
+import {
+    login,
+    logout,
+    getInfo
+} from '@/api/login'
+import {
+    getToken,
+    setToken,
+    removeToken
+} from '@/utils/auth'
+>>>>>>> d8aa888ed6dbafa79ec172d3b51543adf461df3d
 
 const user = {
     state: {

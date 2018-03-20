@@ -59,7 +59,11 @@ export default {
                         .dispatch('Login', this.loginForm)
                         .then(() => {
                             this.loading = false
+<<<<<<< HEAD
                             this.$router.replace({ path: '/' })
+=======
+                            this.$router.push({ path: '/' })
+>>>>>>> d8aa888ed6dbafa79ec172d3b51543adf461df3d
                         })
                         .catch(() => {
                             this.loading = false
