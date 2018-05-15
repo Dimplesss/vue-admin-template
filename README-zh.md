@@ -2,6 +2,19 @@
 
 > 这是一个 极简的vue admin 管理后台 它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
+#   20180515 更新日志
+
+**对基础模板进行优化。**
+
+主要优化内容有：
+-   使用 cdn 提高加载速度，并且兼顾开发模式下的调试。
+-   使用 DllPlugin 提高打包速度，并分离出公共基本模块。
+
+以下为模板官方介绍。
+
+---
+
+
 [线上地址](http://panjiachen.github.io/vueAdmin-template)
 
 ## Extra
